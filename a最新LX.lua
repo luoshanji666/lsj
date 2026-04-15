@@ -101,7 +101,7 @@ tween:Play()
 local Window = WindUI:CreateWindow({
     -- 保留原两个窗口的核心配置
     Title = "牛逼脚本 | LSJ hub", -- 合并标题，兼顾两者
-    Author = "牛逼版 |  .洛杉矶", -- 合并作者信息
+    Author = "公益版 |  .洛杉矶", -- 合并作者信息
     Folder = "洛杉矶_scriptHUB", -- 合并存储文件夹
     NewElements = true,
     Size = UDim2.fromOffset(480, 360),
@@ -129,8 +129,8 @@ local Window = WindUI:CreateWindow({
         ["0"] = {Color = Color3.fromHex("#0f0c29"), Transparency = 1},
         ["100"] = {Color = Color3.fromHex("#302b63"), Transparency = 0.9}
     }, {Rotation = 45}),
-    Background = "rbxassetid://17394288621" -- 图片背景（覆盖渐变，按WindUI优先级）
-    Icon = "rbxassetid://17629418832" -- 窗口图标
+    Background = "rbxassetid://1000033863", -- 图片背景（覆盖渐变，按WindUI优先级）
+    Icon = "rbxassetid://1000033859", -- 窗口图标
     User = {
         Enabled = true,
         Anonymous = false,
@@ -148,7 +148,7 @@ local Window = WindUI:CreateWindow({
         Key = { "洛杉矶牛逼", "洛杉矶NB", "洛杉矶牛逼666" },
         Note = "请输入卡密解锁功能\n官方群: 1077022323",
         Thumbnail = {
-            Image = "rbxassetid://123576958702805"
+            Image = "rbxassetid://123576958702805",
             Size = UDim2.fromOffset(80, 80) -- 缩小图标
         },
         URL = "点击链接加入群聊【ROBLOX牛逼脚本 [联邦]】：https://qun.qq.com/universal-share/share?ac=1&authKey=cKQfS2Eq1sW7sR%2FxRfiffHQ20HrOrYAtK2wRU48%2B9GqeYzQrzQzAL98yDdafJBHV&busi_data=eyJncm91cENvZGUiOiIxMDc3MDIyMzIzIiwidG9rZW4iOiJMMjhNYmpEOHZLdlducGtIWHRCNUtodGorbmloalhHNmgva0ZMT2s3bDcvSE5IcVJnaWplZVdJRi9CNWdKUkdUIiwidWluIjoiMzg5Nzg4Njk0OSJ9&data=k51IhdGgfFjoLsqOjR11Qb8_fakNqmIEPbtb7g36Io_e456tUZQHB5SzasUCy63NcNZ3nvzYa9aAVB8OBFG1NA&svctype=4&tempid=h5_group_info",
